@@ -1,6 +1,8 @@
 # tick-tock
 
+# Screenshot
 
+![Tick Tock](http://imgur.com/Fx32KOK.png)
 
 ## License
 
