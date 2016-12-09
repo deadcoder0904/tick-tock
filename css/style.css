@@ -1,0 +1,16 @@
+html {
+	font-family: 'Aref Ruqaa';
+	text-align: center;
+	background: #1c1b1b;
+	color: #abda53;
+	user-select: none;
+}
+
+header {
+	font-size: 5rem;
+}
+
+h3 {
+	font-size: 2rem;
+	color: #ffa245;
+}
