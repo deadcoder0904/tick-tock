@@ -2,7 +2,10 @@ html {
 	font-family: 'Aref Ruqaa';
 	background: #1c1b1b;
 	color: #abda53;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .main {
@@ -30,7 +33,8 @@ span {
 .clock-face {
   width: 100%;
   height: 100%;
-  transform: translateY(-3px); /* account for the height of the clock hands */
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px); /* account for the height of the clock hands */
 }
 
 .hand {
@@ -39,10 +43,14 @@ span {
 	width: 50%;
 	background: black;
 	position: absolute;
-	transform: rotate(90deg);
-	transform-origin: 100%;
+	-webkit-transform: rotate(90deg);
+	        transform: rotate(90deg);
+	-webkit-transform-origin: 100%;
+	        transform-origin: 100%;
+	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
-	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+	        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
 #hour-hand {
